@@ -1,0 +1,5 @@
+config/.env
+tests/
+store/
+**/__pycache__
+**/*.pyc
