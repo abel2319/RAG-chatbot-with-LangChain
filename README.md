@@ -5,14 +5,12 @@ This is a Retrieval-Augmented Generation (RAG) chatbot using LangChain and Ollam
 ## How to Use
 
 1. Place your medical PDF documents in `data/`.
-2. Run `python scripts/index_documents.py` to load, split, and embed them.
-3. Launch the chatbot via `interfaces/streamlit_app.py`, `cli.py`, or `api.py`.
+2. Run `streamlit run main.py` to load, split, embed them and launch the chatbot.
 
 ## Features
 - Uses `llama3.2` model from Ollama.
 - Embeds with `mxbai-embed-large`.
 - Vector store backed by Chroma.
-- Clean interface with Streamlit, CLI, or FastAPI.
 
 ---
 
